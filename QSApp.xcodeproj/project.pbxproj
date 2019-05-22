@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E4BD8F22917F170025FB30 /* QSRestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4BD8E22917F170025FB30 /* QSRestaurantsViewController.swift */; };
+		CDF94B92686889AF317A58B5 /* Pods_QSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E968C3D54A0175830D3220 /* Pods_QSApp.framework */; };
+		DA81B72A229006A700429933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B729229006A700429933 /* AppDelegate.swift */; };
+		DA81B72F229006A700429933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81B72D229006A700429933 /* Main.storyboard */; };
+		DA81B731229006AD00429933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA81B730229006AD00429933 /* Assets.xcassets */; };
+		DA81B734229006AD00429933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81B732229006AD00429933 /* LaunchScreen.storyboard */; };
+		DA81B73C229006FC00429933 /* QSDashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B73B229006FC00429933 /* QSDashBoardViewController.swift */; };
+		DA81B7422290084600429933 /* QSConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B7412290084600429933 /* QSConstant.swift */; };
+		DA81B74622900B1E00429933 /* QSCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B74522900B1E00429933 /* QSCategoryModel.swift */; };
+		DA81B74922900BC100429933 /* QSRestaurantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B74822900BC100429933 /* QSRestaurantsModel.swift */; };
+		DA81B74B22900C9C00429933 /* QSVacationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B74A22900C9C00429933 /* QSVacationModel.swift */; };
+		DA81B74D2290101600429933 /* NetworkServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B74C2290101600429933 /* NetworkServiceManager.swift */; };
+		DA81B74F2290109C00429933 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B74E2290109C00429933 /* DashBoardViewModel.swift */; };
+		DA81B754229016DE00429933 /* QSCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B753229016DE00429933 /* QSCategoryTableViewCell.swift */; };
+		DA81B756229016F300429933 /* QSCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA81B755229016F300429933 /* QSCategoryTableViewCell.xib */; };
+		DA81B75B22901C1700429933 /* RestaurantsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B75A22901C1700429933 /* RestaurantsViewModel.swift */; };
+		DA81B76122901D2800429933 /* QSRestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B75F22901D2800429933 /* QSRestaurantsTableViewCell.swift */; };
+		DA81B76222901D2800429933 /* QSRestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA81B76022901D2800429933 /* QSRestaurantsTableViewCell.xib */; };
+		DA81B76822901DB600429933 /* QSVacationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B76722901DB600429933 /* QSVacationViewController.swift */; };
+		DA81B76A22901E0B00429933 /* VacationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B76922901E0B00429933 /* VacationViewModel.swift */; };
+		DA81B76D22901E4000429933 /* QSVacationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B76B22901E4000429933 /* QSVacationTableViewCell.swift */; };
+		DA81B76E22901E4000429933 /* QSVacationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA81B76C22901E4000429933 /* QSVacationTableViewCell.xib */; };
+		DA81B77122901E9C00429933 /* Restaurants.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81B77022901E9C00429933 /* Restaurants.storyboard */; };
+		DA81B77322901EAB00429933 /* Vacation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81B77222901EAB00429933 /* Vacation.storyboard */; };
+		DA81B775229032C300429933 /* QCRestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81B774229032C300429933 /* QCRestaurantsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BDAEB7401197A031BCC6C0D /* Pods-QSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSApp.release.xcconfig"; path = "Target Support Files/Pods-QSApp/Pods-QSApp.release.xcconfig"; sourceTree = "<group>"; };
+		11E4BD8E22917F170025FB30 /* QSRestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSRestaurantsViewController.swift; sourceTree = "<group>"; };
+		48E968C3D54A0175830D3220 /* Pods_QSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA81B726229006A700429933 /* QSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA81B729229006A700429933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA81B72E229006A700429933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA81B730229006AD00429933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA81B733229006AD00429933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA81B735229006AD00429933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA81B73B229006FC00429933 /* QSDashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSDashBoardViewController.swift; sourceTree = "<group>"; };
+		DA81B7412290084600429933 /* QSConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSConstant.swift; sourceTree = "<group>"; };
+		DA81B74522900B1E00429933 /* QSCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSCategoryModel.swift; sourceTree = "<group>"; };
+		DA81B74822900BC100429933 /* QSRestaurantsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSRestaurantsModel.swift; sourceTree = "<group>"; };
+		DA81B74A22900C9C00429933 /* QSVacationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSVacationModel.swift; sourceTree = "<group>"; };
+		DA81B74C2290101600429933 /* NetworkServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceManager.swift; sourceTree = "<group>"; };
+		DA81B74E2290109C00429933 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
+		DA81B753229016DE00429933 /* QSCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		DA81B755229016F300429933 /* QSCategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QSCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		DA81B75A22901C1700429933 /* RestaurantsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewModel.swift; sourceTree = "<group>"; };
+		DA81B75F22901D2800429933 /* QSRestaurantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSRestaurantsTableViewCell.swift; sourceTree = "<group>"; };
+		DA81B76022901D2800429933 /* QSRestaurantsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QSRestaurantsTableViewCell.xib; sourceTree = "<group>"; };
+		DA81B76722901DB600429933 /* QSVacationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSVacationViewController.swift; sourceTree = "<group>"; };
+		DA81B76922901E0B00429933 /* VacationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationViewModel.swift; sourceTree = "<group>"; };
+		DA81B76B22901E4000429933 /* QSVacationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSVacationTableViewCell.swift; sourceTree = "<group>"; };
+		DA81B76C22901E4000429933 /* QSVacationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QSVacationTableViewCell.xib; sourceTree = "<group>"; };
+		DA81B77022901E9C00429933 /* Restaurants.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Restaurants.storyboard; sourceTree = "<group>"; };
+		DA81B77222901EAB00429933 /* Vacation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vacation.storyboard; sourceTree = "<group>"; };
+		DA81B774229032C300429933 /* QCRestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCRestaurantsViewController.swift; sourceTree = "<group>"; };
+		E44B11EC5085DF11FF236FB2 /* Pods-QSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSApp.debug.xcconfig"; path = "Target Support Files/Pods-QSApp/Pods-QSApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA81B723229006A700429933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF94B92686889AF317A58B5 /* Pods_QSApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E4BD8D22913D660025FB30 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B729229006A700429933 /* AppDelegate.swift */,
+				DA81B730229006AD00429933 /* Assets.xcassets */,
+				DA81B732229006AD00429933 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3CA60B59D028056975C100BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E44B11EC5085DF11FF236FB2 /* Pods-QSApp.debug.xcconfig */,
+				0BDAEB7401197A031BCC6C0D /* Pods-QSApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA81B71D229006A700429933 = {
+			isa = PBXGroup;
+			children = (
+				DA81B728229006A700429933 /* QSApp */,
+				DA81B727229006A700429933 /* Products */,
+				3CA60B59D028056975C100BE /* Pods */,
+				E09D3E7158363A776D789541 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA81B727229006A700429933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B726229006A700429933 /* QSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA81B728229006A700429933 /* QSApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B735229006AD00429933 /* Info.plist */,
+				11E4BD8D22913D660025FB30 /* App */,
+				DA81B74422900AF400429933 /* Model */,
+				DA81B76F22901E6200429933 /* View */,
+				DA81B76622901D7C00429933 /* ViewModel */,
+				DA81B7432290084B00429933 /* Constant */,
+				DA81B73F2290075800429933 /* ServiceManager */,
+			);
+			path = QSApp;
+			sourceTree = "<group>";
+		};
+		DA81B73F2290075800429933 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B74C2290101600429933 /* NetworkServiceManager.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		DA81B7402290081E00429933 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B76722901DB600429933 /* QSVacationViewController.swift */,
+				DA81B774229032C300429933 /* QCRestaurantsViewController.swift */,
+				DA81B73B229006FC00429933 /* QSDashBoardViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA81B7432290084B00429933 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B7412290084600429933 /* QSConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		DA81B74422900AF400429933 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B74522900B1E00429933 /* QSCategoryModel.swift */,
+				DA81B74822900BC100429933 /* QSRestaurantsModel.swift */,
+				DA81B74A22900C9C00429933 /* QSVacationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA81B76322901D2C00429933 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B753229016DE00429933 /* QSCategoryTableViewCell.swift */,
+				DA81B76B22901E4000429933 /* QSVacationTableViewCell.swift */,
+				DA81B75F22901D2800429933 /* QSRestaurantsTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		DA81B76622901D7C00429933 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B74E2290109C00429933 /* DashBoardViewModel.swift */,
+				DA81B75A22901C1700429933 /* RestaurantsViewModel.swift */,
+				DA81B76922901E0B00429933 /* VacationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA81B76F22901E6200429933 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA81B76322901D2C00429933 /* TableCell */,
+				DA81B76022901D2800429933 /* QSRestaurantsTableViewCell.xib */,
+				DA81B76C22901E4000429933 /* QSVacationTableViewCell.xib */,
+				DA81B755229016F300429933 /* QSCategoryTableViewCell.xib */,
+				DA81B72D229006A700429933 /* Main.storyboard */,
+				11E4BD8E22917F170025FB30 /* QSRestaurantsViewController.swift */,
+				DA81B77022901E9C00429933 /* Restaurants.storyboard */,
+				DA81B77222901EAB00429933 /* Vacation.storyboard */,
+				DA81B7402290081E00429933 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E09D3E7158363A776D789541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48E968C3D54A0175830D3220 /* Pods_QSApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA81B725229006A700429933 /* QSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA81B738229006AD00429933 /* Build configuration list for PBXNativeTarget "QSApp" */;
+			buildPhases = (
+				FF49030DC5BC5B4EF1CB092B /* [CP] Check Pods Manifest.lock */,
+				DA81B722229006A700429933 /* Sources */,
+				DA81B723229006A700429933 /* Frameworks */,
+				DA81B724229006A700429933 /* Resources */,
+				900F2DD83CBC7C6B223B884B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSApp;
+			productName = QSApp;
+			productReference = DA81B726229006A700429933 /* QSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA81B71E229006A700429933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nua Transmedia";
+				TargetAttributes = {
+					DA81B725229006A700429933 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DA81B721229006A700429933 /* Build configuration list for PBXProject "QSApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA81B71D229006A700429933;
+			productRefGroup = DA81B727229006A700429933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA81B725229006A700429933 /* QSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA81B724229006A700429933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA81B734229006AD00429933 /* LaunchScreen.storyboard in Resources */,
+				DA81B756229016F300429933 /* QSCategoryTableViewCell.xib in Resources */,
+				DA81B77122901E9C00429933 /* Restaurants.storyboard in Resources */,
+				DA81B76E22901E4000429933 /* QSVacationTableViewCell.xib in Resources */,
+				DA81B731229006AD00429933 /* Assets.xcassets in Resources */,
+				DA81B76222901D2800429933 /* QSRestaurantsTableViewCell.xib in Resources */,
+				DA81B72F229006A700429933 /* Main.storyboard in Resources */,
+				DA81B77322901EAB00429933 /* Vacation.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		900F2DD83CBC7C6B223B884B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QSApp/Pods-QSApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QSApp/Pods-QSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF49030DC5BC5B4EF1CB092B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA81B722229006A700429933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA81B74D2290101600429933 /* NetworkServiceManager.swift in Sources */,
+				11E4BD8F22917F170025FB30 /* QSRestaurantsViewController.swift in Sources */,
+				DA81B775229032C300429933 /* QCRestaurantsViewController.swift in Sources */,
+				DA81B76A22901E0B00429933 /* VacationViewModel.swift in Sources */,
+				DA81B74B22900C9C00429933 /* QSVacationModel.swift in Sources */,
+				DA81B75B22901C1700429933 /* RestaurantsViewModel.swift in Sources */,
+				DA81B76822901DB600429933 /* QSVacationViewController.swift in Sources */,
+				DA81B76122901D2800429933 /* QSRestaurantsTableViewCell.swift in Sources */,
+				DA81B72A229006A700429933 /* AppDelegate.swift in Sources */,
+				DA81B754229016DE00429933 /* QSCategoryTableViewCell.swift in Sources */,
+				DA81B7422290084600429933 /* QSConstant.swift in Sources */,
+				DA81B73C229006FC00429933 /* QSDashBoardViewController.swift in Sources */,
+				DA81B76D22901E4000429933 /* QSVacationTableViewCell.swift in Sources */,
+				DA81B74922900BC100429933 /* QSRestaurantsModel.swift in Sources */,
+				DA81B74622900B1E00429933 /* QSCategoryModel.swift in Sources */,
+				DA81B74F2290109C00429933 /* DashBoardViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA81B72D229006A700429933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA81B72E229006A700429933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA81B732229006AD00429933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA81B733229006AD00429933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA81B736229006AD00429933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA81B737229006AD00429933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA81B739229006AD00429933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44B11EC5085DF11FF236FB2 /* Pods-QSApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuatransmedia.QSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA81B73A229006AD00429933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BDAEB7401197A031BCC6C0D /* Pods-QSApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuatransmedia.QSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA81B721229006A700429933 /* Build configuration list for PBXProject "QSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA81B736229006AD00429933 /* Debug */,
+				DA81B737229006AD00429933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA81B738229006AD00429933 /* Build configuration list for PBXNativeTarget "QSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA81B739229006AD00429933 /* Debug */,
+				DA81B73A229006AD00429933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA81B71E229006A700429933 /* Project object */;
+}

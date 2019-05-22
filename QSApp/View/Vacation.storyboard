@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dXz-xe-e9G">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vacation View Controller-->
+        <scene sceneID="aJ2-uT-prx">
+            <objects>
+                <viewController id="dXz-xe-e9G" customClass="QSVacationViewController" customModule="QSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tcf-XF-B86">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3d5-NQ-PvR">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="dXz-xe-e9G" id="D2D-i6-duN"/>
+                                    <outlet property="delegate" destination="dXz-xe-e9G" id="wvp-34-fo8"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3d5-NQ-PvR" firstAttribute="leading" secondItem="5oR-3S-agC" secondAttribute="leading" id="6hq-2b-DON"/>
+                            <constraint firstItem="3d5-NQ-PvR" firstAttribute="trailing" secondItem="5oR-3S-agC" secondAttribute="trailing" id="KNc-Cp-FjO"/>
+                            <constraint firstItem="5oR-3S-agC" firstAttribute="bottom" secondItem="3d5-NQ-PvR" secondAttribute="bottom" id="MMr-4m-5fJ"/>
+                            <constraint firstItem="3d5-NQ-PvR" firstAttribute="top" secondItem="5oR-3S-agC" secondAttribute="top" id="awN-7d-gAB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5oR-3S-agC"/>
+                    </view>
+                    <connections>
+                        <outlet property="tblVacation" destination="3d5-NQ-PvR" id="rnf-N4-vS0"/>
+                        <outlet property="viewModel" destination="MTZ-yZ-O86" id="xWy-kl-c5j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xUt-0O-wgu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="MTZ-yZ-O86" customClass="VacationViewModel" customModule="QSApp" customModuleProvider="target">
+                    <connections>
+                        <outlet property="serviceModel" destination="6sb-Iz-8Dw" id="X2l-RA-zcP"/>
+                    </connections>
+                </customObject>
+                <customObject id="6sb-Iz-8Dw" customClass="NetworkServiceManager" customModule="QSApp" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="208.69565217391306" y="84.782608695652186"/>
+        </scene>
+    </scenes>
+</document>
